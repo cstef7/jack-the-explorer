@@ -95,21 +95,13 @@ Other features
 * Visual elements leverage pygame for rendering.
 * Physics interactions are supported through pymunk.
 
-## Individual contributions
+## Gameplay
+![Heal](screenshots/heal.png)
+![Bullet](screenshots/bullet.jpeg)
+![Settings](screenshots/settings.jpeg)
+![Head](screenshots/head.png)
 
-### Cosmin
-
-Designed the software arhitecture of the game from scratch and coordinated sessions of pair programming. Implemented physics using the engine from pymunk. Added support for importing tilesets, tilemaps, and objects into the game. Added particle effects and sprites to objects in the scene.
-
-### Liviu
-Implemented the basic GUI interfaces used. Designed the menus and settings. Added persistency to chosen options. Implemented the enemy shooting at player. Added checkpoints and shooting mechanics.
-### Denisa
-Implemented tunnels, spikes, and moving platforms, which contribute to dynamic level interactions and add variety to the obstacles players face. Designed the level map to incorporate these elements seamlessly, along with visually appealing backgrounds, enhancing the overall gameplay experience.
-### Andreea
-Enhanced gameplay with a camera system that follows the player while respecting map boundaries. Implemented tunnels and spikes for interactive level obstacles. Developed a health and life system with dynamic damage handling and respawn mechanics. Created detailed level maps and engaging background visuals to enrich the gaming experience.
-
-## Dificulties encountered
-
-Pygame lacks basic GUI interfaces, such as buttons, checkboxes, dropdowns, sliders etc. These had to be implemented from scratch. Positioning all the buttons in the GUI turned out to be much more challenging than expected. All menus scale with the selected resolution.
-
-In general, pygame is rather rudimentary and lacks many components of a full-fledged game engine, so the architecture of the game had to be carefully designed to accomodate for any desired complex features.
+### Levels
+![Level 1](screenshots/level1.png)
+![Level 2](screenshots/level2.png)
+![Level 3](screenshots/level3.png)

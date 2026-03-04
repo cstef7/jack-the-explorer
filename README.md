@@ -48,8 +48,6 @@ In addition, the open source program Tiled was used to design the maps which are
 ![Bullet](screenshots/bullet.jpeg)
 ![Settings](screenshots/settings.jpeg)
 ![Head](screenshots/head.png)
-
-### Levels
 ![Level 1](screenshots/level1.png)
 ![Level 2](screenshots/level2.png)
 ![Level 3](screenshots/level3.png)
